@@ -1,0 +1,19 @@
+import React, { useRef } from "react";
+
+function UseRefExample() {
+  const inputRef = useRef();
+
+  const focusInput = () => {
+    inputRef.current.style.color = "green" // access the input element
+    inputRef.current.style.backgroundColor = "red"
+  };
+
+  return (
+    <div>
+      <input ref={inputRef} type="text" />
+      <button onClick={focusInput}>Focus Input</button>
+    </div>
+  );
+}
+export default UseRefExample;
+
