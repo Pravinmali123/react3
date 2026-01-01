@@ -10,6 +10,7 @@ function UseRefExample() {
 
   return (
     <div>
+      <h1>(2).useref hook</h1>
       <input ref={inputRef} type="text" />
       <button onClick={focusInput}>Focus Input</button>
     </div>

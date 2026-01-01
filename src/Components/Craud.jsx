@@ -34,11 +34,11 @@ function CrudApp() {
   
 
   return (
-   <div> 
-   <h2>Craud Opration</h2>
+   <div style={{margin:"50px"}}> 
+  <h1 style={{textAlign:"center" , justifyContent: "center", borderBottom:"1px solid green"}}>CRUD opration</h1>
   
-   <input type="text" value={name} onChange={(e)=>setname(e.target.value)}/> <br /><br />
-   <input type="text" value={surname} onChange={(e)=>setsurname(e.target.value)}/> <br /> <br />
+   <input type="text" value={name} placeholder="name" onChange={(e)=>setname(e.target.value)}/> <br /><br />
+   <input type="text" value={surname} placeholder="surname" onChange={(e)=>setsurname(e.target.value)}/> <br /> <br />
    <button onClick={handleclick}>Submit</button>
 
      <table border={1}>

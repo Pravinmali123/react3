@@ -15,7 +15,7 @@ const UseMemoExample = () => {
 
     return (
         <div>
-
+<h2>(1).useMemo Hook</h2>
             <h1>{no}</h1>
 
 

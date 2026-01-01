@@ -6,6 +6,7 @@ export default function ImageButtons() {
   const [image, setImage] = useState("");
 
   return (
+    
     <div style={{ width: "400px", margin: "30px auto", textAlign: "center" }}>
      
 

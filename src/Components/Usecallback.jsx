@@ -15,6 +15,7 @@ const Usecallback = () => {
 
   return (
      <>
+     <h2>(3).useCallback hook</h2>
       <p>Count: {count}</p>
       <Button onClick={handleClick} />
     </>

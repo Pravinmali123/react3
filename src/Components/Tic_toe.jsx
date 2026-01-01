@@ -48,6 +48,8 @@ function Usable() {
 
   return (
     <>
+
+     <h1 style={{textAlign:"center" , justifyContent: "center", borderBottom:"1px solid green"}}>Tic_Toe_Game</h1>
       <div
         style={{
           width: "240px",
@@ -59,7 +61,9 @@ function Usable() {
         
 
         }}
+        
       >
+        
         {boxes.map((value, i) => (
           <button
             key={i}

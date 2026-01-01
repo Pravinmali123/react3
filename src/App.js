@@ -1,8 +1,8 @@
 import React from 'react';
-// import Home from './Home';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import About from './About';
-// import Contact from './Contact';
+import Home from './Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import About from './About';
+import Contact from './Contact';
 import UseMemoExample from './Components/Usememo';
 import UseRefExample  from './Components/Useref';
 import Usecallback from './Components/Usecallback';
@@ -13,7 +13,7 @@ function App() {
   return (
     
  <div className="App">
-        {/* <Router>
+        <Router>
              <Switch>
               <Route path="/contact">
             <Contact />
@@ -26,13 +26,13 @@ function App() {
             <Home />
           </Route>
         </Switch>
-          </Router>  */}
-          {/* <UseMemoExample />
+          </Router> 
+          <UseMemoExample />
           <UseRefExample />
           <Usecallback />
-          <ImageButtons /> */}
+          <ImageButtons />
           <Useble />
-          {/* <CrudApp /> */}
+          <CrudApp />
           
     </div>
   );
